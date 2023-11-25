@@ -24,30 +24,7 @@ b.addEventListener('click', function() {
 
   let randNum = Math.floor(Math.random() * arr.length);
 
-  let axe = arr[randNum];
-  p.innerText = axe.quote;
-  h.innerText = axe.author;
-
-  // let user = {
-  //   quote: "You can never cross the ocean until you have the courage to lose sight of the shore.",
-  //   author: "- Christopher Columbus"
-  // };
-  //
-  // let user2 = {
-  //   quote: "Eighty percent of success is showing up.",
-  //   author: "- Woody Allen"
-  // };
-  //
-  // let user3 = {
-  //   quote: "Life is 10% what happens to me and 90% of how I react to it.",
-  //   author: "Charles Swindoll"
-  // };
-
-//   function filter_list(l) {
-//   // Return a new array with the strings filtered out
-//   let arr = [1,'a','b',0,15];
-//   for(i = 0; i <= arr.length; i++){
-//     if(arr[i] < 0 || arr[i])
-//   }
-// }
+  let quote = arr[randNum];
+  p.innerText = quote.quote;
+  h.innerText = quote.author;
 })
